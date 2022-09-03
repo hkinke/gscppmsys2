@@ -27,7 +27,7 @@ Msys2 offers the same tools as Linux to build software on Windows.
     ```
 - The next step is to clone starting repository
     ```bash
-    git clone https://github.com/hkinke/gscppmsys2 hello
+    git clone https://github.com/hkinke/gscppmsys2.git hello
     ```
 - Change the folder
     ```bash
