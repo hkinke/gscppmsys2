@@ -21,9 +21,9 @@ Msys2 offers the same tools as Linux to build software on Windows.
     pacman -S mingw-w64-x86_64-cmake
     ```
 - Install [Visual Studio Code](https://code.visualstudio.com/Download).
-- Install [Cmake extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) for Visual Studio Code. You can also install from commandline
+- Install [C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) for Visual Studio Code. You can also install from commandline
     ```
-    code --install-extension ms-vscode.cmake-tools
+    code --install-extension ms-vscode.cpptools-extension-pack
     ```
 - The next step is to clone starting repository
     ```bash
