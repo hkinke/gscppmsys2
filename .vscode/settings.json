@@ -1,0 +1,13 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.cmakePath": "C:/msys64/mingw64/bin/cmake.exe",
+    "cmake.environment": {"PATH":"C:/msys64/mingw64/bin;C:/msys64/usr/bin;${env:PATH}"},
+    "terminal.integrated.profiles.windows": {
+        "Mingw64": {
+            "path":"C:/msys64/msys2_shell.cmd",
+            "args": ["-defterm","-here","-no-start","-mingw64"],
+            "icon": "terminal-bash"
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "Mingw64"
+}
