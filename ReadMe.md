@@ -43,7 +43,7 @@ Msys2 offers the same tools as Linux to build software on Windows.
     add_executable(main main.cpp)
     ```
 - From Visual Studio Code, choose the `Mingw64` kit, configure, and build your project.
-- Lunch you application (you can use Visual Studio Code integrated terminal ``Ctrl+Shift+` ``)
+- Lunch you application (you can use Visual Studio Code integrated terminal `` Ctrl+Shift+` ``)
     ```bash
     ./build/main
     ```
