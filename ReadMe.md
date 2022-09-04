@@ -1,4 +1,4 @@
-# Getting Started C/C++ with MSYS2
+# Getting Started with C/C++ and MSYS2
 
 ## Introduction
 
