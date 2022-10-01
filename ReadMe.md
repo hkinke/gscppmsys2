@@ -6,7 +6,7 @@ Msys2 offers the same tools as Linux to build software on Windows.
 
 ## Installation
 
-- Download and install MSYS2 ([page](https://www.msys2.org/),[installer](https://github.com/msys2/msys2-installer/releases/download/2022-06-03/msys2-x86_64-20220603.exe)). 
+- Download and install MSYS2 ([page](https://www.msys2.org/),[installer](https://github.com/msys2/msys2-installer/releases/download/2022-09-04/msys2-x86_64-20220904.exe)). 
 
 - Install `gcc`
     ```bash
