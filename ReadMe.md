@@ -6,8 +6,15 @@ Msys2 offers the same tools as Linux to build software on Windows.
 
 ## Installation
 
-- Download and install MSYS2 ([page](https://www.msys2.org/),[installer](https://github.com/msys2/msys2-installer/releases/download/2023-03-18/msys2-x86_64-20230318.exe)).
-
+- Download and install MSYS2 ([page](https://www.msys2.org/),[installer](https://github.com/msys2/msys2-installer/releases/download/2023-03-18/msys2-x86_64-20230318.exe)). You can also use package managers like `Chocolatey` or `Scoop` to install MSYS2:
+    Use this command to install with Chocolatey:
+    ```ps1
+    choco install msys2
+    ```
+    Use this command to install with scoop:
+    ```ps1
+    scoop install msys2
+    ```
 - Install `gcc`
     ```bash
     pacman -S mingw-w64-x86_64-gcc
