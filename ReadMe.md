@@ -36,9 +36,11 @@ Msys2 offers the same tools as Linux to build software on Windows.
     ```bash
     git clone https://github.com/hkinke/gscppmsys2.git hello
     ```
-- Change the folder
+- Change the folder, remove `.git` folder, and start a new repository
     ```bash
     cd hello
+    rm -rf .git
+    git init
     ```
 - Change the replace `gscppmsys2` in `CMakeLists.txt` with the name of your project by example `hello`.
     ```cmake
