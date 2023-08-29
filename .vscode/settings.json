@@ -1,14 +1,14 @@
 {
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "cmake.generator": "Ninja",
-    "cmake.cmakePath": "C:/msys64/mingw64/bin/cmake.exe",
-    "cmake.environment": {"PATH":"C:/msys64/mingw64/bin;C:/msys64/usr/bin;${env:PATH}"},
+    "cmake.cmakePath": "C:/msys64/ucrt64/bin/cmake.exe",
+    "cmake.environment": {"PATH":"C:/msys64/ucrt64/bin;C:/msys64/usr/bin;${env:PATH}"},
     "terminal.integrated.profiles.windows": {
-        "Mingw64": {
+        "UCRT64": {
             "path":"C:/msys64/msys2_shell.cmd",
-            "args": ["-defterm","-here","-no-start","-mingw64"],
+            "args": ["-defterm","-here","-no-start","-ucrt64"],
             "icon": "terminal-bash"
         },
     },
-    "terminal.integrated.defaultProfile.windows": "Mingw64"
+    "terminal.integrated.defaultProfile.windows": "UCRT64"
 }

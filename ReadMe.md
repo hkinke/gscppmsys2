@@ -6,7 +6,7 @@ Msys2 offers the same tools as Linux to build software on Windows.
 
 ## Installation
 
-- Download and install MSYS2 ([page](https://www.msys2.org/),[installer](https://github.com/msys2/msys2-installer/releases/download/2023-03-18/msys2-x86_64-20230318.exe)). You can also use package managers like `Chocolatey` or `Scoop` to install MSYS2:
+- Download and install MSYS2 ([page](https://www.msys2.org/),[installer](https://github.com/msys2/msys2-installer/releases/download/2023-07-18/msys2-x86_64-20230718.exe)). You can also use package managers like `Chocolatey` or `Scoop` to install MSYS2:
     Use this command to install with Chocolatey:
 
     ```ps1
@@ -18,23 +18,28 @@ Msys2 offers the same tools as Linux to build software on Windows.
     ```ps1
     scoop install msys2
     ```
+- Install `git`
+
+    ```bash
+    pacman -S git
+    ```
 
 - Install `gcc`
 
     ```bash
-    pacman -S mingw-w64-x86_64-gcc
+    pacman -S mingw-w64-ucrt-x86_64-gcc
     ```
 
 - Install `ninja`
 
     ```bash
-    pacman -S git mingw-w64-x86_64-ninja 
+    pacman -S mingw-w64-ucrt-x86_64-ninja 
     ```
 
 - Install `cmake`
 
     ```bash
-    pacman -S mingw-w64-x86_64-cmake
+    pacman -S mingw-w64-ucrt-x86_64-cmake
     ```
 
 - Install [Visual Studio Code](https://code.visualstudio.com/Download).
@@ -69,7 +74,7 @@ Msys2 offers the same tools as Linux to build software on Windows.
     add_executable(main main.cpp)
     ```
 
-- From Visual Studio Code, choose the `Mingw64` kit, configure, and build your project.
+- From Visual Studio Code, choose the `UCRT64` kit, configure, and build your project.
 - Lunch you application (you can use Visual Studio Code integrated terminal `` Ctrl+Shift+` ``)
 
     ```bash
