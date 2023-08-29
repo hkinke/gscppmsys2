@@ -18,6 +18,12 @@ Msys2 offers the same tools as Linux to build software on Windows.
     ```ps1
     scoop install msys2
     ```
+- Lunch a bash shell from `cmd`
+
+    ```cmd
+    C:\msys64\msys2_shell.cmd -defterm -here -no-start -ucrt64
+    ```
+
 - Install `git`
 
     ```bash
